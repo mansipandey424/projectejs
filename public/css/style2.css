@@ -1,0 +1,76 @@
+/* Main Section Style */
+#our-work-section {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+  }
+  
+  /* Heading Style */
+  #our-work-section h2 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Work Categories Container */
+  .work-categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Work Category Card Style */
+  .work-category-card {
+    width: 250px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .work-category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Work Category Image Style */
+  .work-category-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  /* Work Category Title Style */
+  .work-category-card h3 {
+    padding: 15px;
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  /* Work Category Description Style */
+  .work-category-card p {
+    padding: 0 15px 15px;
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  /* Call-to-Action Button Style */
+  .cta-button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #45a049;
+  }

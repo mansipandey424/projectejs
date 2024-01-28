@@ -1,0 +1,86 @@
+/* Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Style */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+  }
+  
+  /* Main Section Style */
+  #contact-form-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Contact Form Style */
+  #contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Form Label Style */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  /* Form Input Style */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Submit Button Style */
+  button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      padding: 30px;
+    }
+  
+    #contact-form-section {
+      padding: 30px;
+    }
+  
+    #contact-form {
+      padding: 0 20px;
+    }
+  }
